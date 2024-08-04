@@ -1,0 +1,135 @@
+#wrap{
+    width:100%;
+    height:100%;
+    background-color:blue;    
+    position:absolute;
+    overflow:hidden;
+    top:0px;
+    left:0px;
+}
+.pan{
+    width:100%;
+    height:100%;
+    position:relative;      
+}
+.pan > div{
+    height:100%;
+}
+._1p{
+    background:url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+._2p{
+    background:url(bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+._3p{
+    background:url(bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+}
+._4p{
+    background:url(bg4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+}
+.emo1{
+    width:100%;
+    height:13%;
+}
+.emo2{
+    width:100%;
+    height:28%;
+}
+.emo3{
+    width:100%;
+    height:57%;
+}
+.emo2-1{
+    width:37%;
+    height:100%;
+    float:left;
+}
+.emo2-2{
+    width:22%;
+    height:100%;
+    float:left;    
+}
+.emo2-3{
+    width:41%;
+    height:100%;    
+    float:left;
+}
+.pan2{
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+.pan2 > div{
+    width:100%;
+    height:100%;
+    position:absolute; 
+    top:0px;    
+    left:10px;
+}
+.pan2 img{
+    width:100%;
+    height:100%;
+}
+.coffee{
+    width: calc(100% / 7);
+    height: calc(100% / 6);
+    background-image: url('coffee1.png'), url('coffee2.png');
+    background-size: cover;
+    animation: dance 0.6s infinite;
+    cursor: pointer;
+    position:relative;
+    top:50%;
+    left:40%;
+}
+
+@keyframes dance{
+    0% {
+        background-image: url('coffee1.png');
+    }
+    50% {
+        background-image: url('coffee2.png');
+    }
+    100% {
+        background-image: url('coffee1.png');
+    }
+}
+
+.bear{
+    width: calc(100% / 7);
+    height: calc(100% / 2);
+    background-image: url('bear1.png'), url('bear2.png');
+    background-size: cover;
+    animation: dance2 0.9s infinite;
+    cursor: pointer;
+    position:absolute;
+    top:1%;
+    left:75%;
+}
+
+@keyframes dance2{
+    0% {
+        background-image: url('bear1.png');
+    }
+    50% {
+        background-image: url('bear2.png');
+    }
+    100% {
+        background-image: url('bear1.png');
+    }
+}
+h1{
+    position:relative;
+    top:300px;
+    left:400px;
+}
+h2{
+    position:relative;
+    top:300px;
+    left:400px;
+}
